@@ -32,5 +32,5 @@ console.log("Final answer: "+circumference)
 document.getElementById("myButton2").onclick= function(){
     radius =document.getElementById("circ").value;
     console.log(circumference);
-    document.getElementById("p2").innerHTML = "The circumference of " + radius+ " is: "+ radius*PI*2;
+    document.getElementById("p2").innerHTML = "The Circumference of " + radius+ " is: "+ radius*PI*2;
 }
